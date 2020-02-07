@@ -22,3 +22,6 @@ Route::resource('discussions', 'DiscussionsController');
 Route::resource('discussions/{discussion}/replies', 'RepliesController');
 
 
+Route::post('discussions/{discussion}/replies/{reply}/mark-as-best', 'DiscussionsController@reply')->name('discussions.best-reply');
+
+
