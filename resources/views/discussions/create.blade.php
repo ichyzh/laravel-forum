@@ -5,7 +5,7 @@
     <div class="card-header">Add Discussion</div>
 
     <div class="card-body">
-        <form action="{{ route('discussion.store') }}" method="post">
+        <form action="{{ route('discussions.store') }}" method="post">
             @csrf
             <div class="form-group">
                 <label for="title">Title</label>
